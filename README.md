@@ -1,5 +1,11 @@
 # Projetos de Estrutura, Pesquisa e Ordenação de Dados
 
+## Acadêmicos
+* Alexssandro Luan Bryk
+* Eduarda Kodum
+* Gustavo Dutra Martins
+* Nicholas Savagim Sutil de Oliveira
+
 ## Descrição dos Projetos
 
 ### Projeto 1: Árvores e Balanceamento
