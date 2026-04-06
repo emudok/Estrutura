@@ -1,7 +1,7 @@
 # Projetos de Estrutura, Pesquisa e Ordenação de Dados
 
 ## Acadêmicos
-* Alexssandro Luan Bryk
+* Alexsandro Luan Bryk
 * Eduarda Kodum
 * Gustavo Dutra Martins
 * Nicholas Savagim Sutil de Oliveira
