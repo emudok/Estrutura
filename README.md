@@ -22,5 +22,5 @@ Implementação e análise assintótica dos algoritmos **Insertion Sort** e **Qu
 ├── Projeto1_Arvores
 ├── Projeto2_Busca
 ├── Projeto3_Ordenação
-├── Relatorios (PDFs obrigatórios)
+├── Relatorios 
 └── README.md
