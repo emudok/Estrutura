@@ -1,26 +1,40 @@
-# Projetos de Estrutura, Pesquisa e Ordenação de Dados
+# Projeto 2 - Sistemas de Busca
 
-## Acadêmicos
-* Alexsandro Luan Bryk
-* Eduarda Kodum
-* Gustavo Dutra Martins
-* Nicholas Savagim Sutil de Oliveira
+## Descrição
+Este projeto compara o desempenho de três estratégias de busca:
 
-## Descrição dos Projetos
+- Busca Sequencial
+- Busca Binária
+- Busca em Árvore Binária de Busca (BST)
 
-### Projeto 1: Árvores e Balanceamento
-Implementação de **Árvore Binária de Busca (BST)**, **Árvore AVL** e **Árvore Rubro-Negra**. Inclui operações de inserção, remoção, busca e cálculo de altura, além de uma heurística para o **Problema do Caixeiro-Viajante** com análise estatística baseada em 30 execuções.
+A análise experimental é realizada com diferentes volumes de dados e 30 execuções para cada tamanho de entrada, calculando:
 
-### Projeto 2: Sistemas de Busca
-Comparação de desempenho entre **Busca Sequencial**, **Busca Binária** e **Busca em Árvore**. Apresenta análise de média e desvio padrão para diferentes volumes de dados.
+- Média do tempo de execução
+- Desvio padrão
 
-### Projeto 3: Benchmark de Ordenação
-Implementação e análise assintótica dos algoritmos **Insertion Sort** e **Quick Sort**. Avaliação de melhor, médio e pior caso com medição de tempo de execução.
+## Estrutura
+- `search/`: algoritmos de busca
+- `model/`: estrutura da árvore binária de busca
+- `util/`: geração de dados e estatística
+- `benchmark/`: execução dos experimentos e consolidação dos resultados
 
-## Estrutura do Repositório
-```text
-├── Projeto1_Arvores
-├── Projeto2_Busca
-├── Projeto3_Ordenação
-├── Relatorios 
-└── README.md
+## Complexidade Teórica
+
+### Busca Sequencial
+- Melhor caso: O(1)
+- Caso médio: O(n)
+- Pior caso: O(n)
+
+### Busca Binária
+- Melhor caso: O(1)
+- Caso médio: O(log n)
+- Pior caso: O(log n)
+
+### Busca em Árvore Binária de Busca
+- Melhor caso: O(1)
+- Caso médio: O(log n)
+- Pior caso: O(n)
+
+## Observações
+A busca binária exige vetor ordenado.
+A busca em árvore pode degradar para O(n) se a árvore ficar desbalanceada.

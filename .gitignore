@@ -1,0 +1,23 @@
+#
+# Java build outputs
+#
+/out/
+*.class
+
+#
+# IDE / editor
+#
+/.idea/
+*.iml
+/.vscode/
+
+#
+# OS
+#
+.DS_Store
+
+#
+# Codex local metadata
+#
+/.codex
+/.codex/
