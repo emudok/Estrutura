@@ -1,4 +1,4 @@
-# Projeto III - Benchmark de Ordenação 📊
+# Projeto III - Benchmark de Ordenação 
 Este projeto consiste na implementação e análise de desempenho de algoritmos de ordenação, desenvolvido para a disciplina de **Estruturas, Pesquisa e Ordenação de Dados (2026/1)**.
 
 ## Descrição do Projeto
@@ -15,4 +15,4 @@ Para garantir a precisão dos resultados e atender aos requisitos do edital:
 3.  **Análise Estatística:** O relatório técnico inclui média e desvio padrão das execuções.
 
 ## 📂 Estrutura do Repositório
-* `/src`: Código-fonte dos algoritmos e scripts de teste[cite: 44].
+* `/src`: Código-fonte dos algoritmos e scripts de teste.
